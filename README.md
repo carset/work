@@ -6,7 +6,7 @@ $celery -A app.celery worker --loglevel=info
 
 [uwsgi]
 plugins = python
-base = /opt/www/
+base = /opt/www/project1
 pythonpath = %(base)
 home = %(base)/env
 module = run
