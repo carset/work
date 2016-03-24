@@ -6,7 +6,7 @@ $celery -A app.celery worker --loglevel=info
 
 [uwsgi]
 plugins = python
-base = /opt/www/phonevers
+base = /opt/www/
 pythonpath = %(base)
 home = %(base)/env
 module = run
